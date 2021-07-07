@@ -2,6 +2,19 @@
 
 The purpose of this assignment is to evaluate your coding performance and to understand your attitude towards software development.
 
+## Tech Stack
+* Migrate to Fully Kotlin
+* MVVM Architecture
+* StateFlow
+* Retrofit for network
+* Koin for DI
+* Coroutines for async operations
+* MockK for Unit Tests
+* ViewBinding
+* Sealed class for ViewState
+* Constraint Layout for Views
+* Credit card UI library
+
 ## The task
 
 In a fictive world, the demand for food delivery services has significantly increased in the past few months. A market gap was spotted that we need to fill with an app providing an essential service: toast delivery.
@@ -29,13 +42,3 @@ It should not be necessary to spend more than 4 to 6 hours to complete the chall
 In the current state, the app looks like this:
 
 ![](screenshot.png)
-
-## Test Account
-
-In order for you to test your integration, please use the following test account from Germany:
-* Email: `dev_mrzmntgx@sumup.com`
-* Password: `extdev`
-
-
-The test account has been granted the [`payments` scope](https://developer.sumup.com/docs/authorization/#restricted-scopes), so that you can use our API.
-When processing a checkout, the process will look like a real transaction, but of course no money will be charged (the test account cannot process real payments).

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Toast Delivery</string>
+
+    <string name="purchase">Purchase</string>
+    <string name="pay">Pay</string>
+
+    <string name="dialog_error_title">Error</string>
+    <string name="dialog_error_button">Retry</string>
+</resources>
